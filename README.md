@@ -2,8 +2,8 @@
 
 Essentially, this is a matching problem with two tweaks
 1. matching an (IP address:port number) pair
-2. dealing with asterisk(*)
-Therefore, the first thing comes to my mind is using an unordered_map. Next, I parse input (flow) pair, converting IP addressor port number to *, to find corresponding entry in translation table.
+2. dealing with asterisk(\*)
+Therefore, the first thing comes to my mind is using an unordered_map. Next, I parse input (flow) pair, converting IP addressor or port number to \*, to find corresponding entry in translation table.
 
 space complexity: O(n)
 time complexity: O(n) (However, we need to check (IP address:port numer) pair at most three times)
